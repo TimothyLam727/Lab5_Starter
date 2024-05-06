@@ -1,0 +1,6 @@
+1. IDs and classes are used to make specific elements and separate elements from one another. It is also easier to refer elements by IDs and classes.
+2. data attributes is any general characteristic that can be associated with a specific collection of data. It allows us to store extra information and HTML elements without other hacks such as non-standard attributes. We can access data attribute in JavaScripts by ```element.dataset.someAttributeName```
+3. A DOM fragment is a minimal document object that doesn't belong to the main document tree. It is uses to create the document fragment, append elements to teh document fragment and then append the document fragment to the DOM tree.
+4. The virtual DOM allows the application to minimize direct DOM manipulation. However, the disadvantage of virtual DOM is that it may increase complexity and add overhead.
+5. This is because the word "class" is a reserved keyword in JavaScript.
+6. ```addEventListener()``` allows you to add multiple event handlers to an element. However, it has slightly more verbose syntax. On the other hand, ```onClick``` can handle one click event per element. It is quick to set up directly in HTML but can only handle one event for each click, which can be overwritten inadvertently.
